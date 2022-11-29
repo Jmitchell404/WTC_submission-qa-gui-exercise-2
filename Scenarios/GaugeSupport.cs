@@ -22,6 +22,7 @@ namespace Scenarios
             _driver = new ChromeDriver();
             _driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
         }
+        
 
         [AfterSpec]
         public void AfterSpec()
